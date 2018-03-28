@@ -4,7 +4,8 @@
   "description": "https://srikaratal.github.io/song/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm-run-all test:*",
+    "test:js": "globstar jshint js/*.js"
   },
   "repository": {
     "type": "git",
