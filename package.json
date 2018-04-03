@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
-    "test:js": "globstar jshint js/*.js"
+    "test:js": "jshint js/*.js"
   },
   "repository": {
     "type": "git",
